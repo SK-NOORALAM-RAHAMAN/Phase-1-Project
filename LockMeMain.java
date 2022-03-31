@@ -74,7 +74,7 @@ public class LockMeMain {
 //	Main method
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String path = "C:\\Users\\sajid\\eclipse-workspace\\Main\\src\\Simplilearn\\MiniProjectPhase1\\";
+		String path = "C:\\Users\\sajid\\eclipse-workspace\\Main\\src\\Simplilearn\\MiniProjectPhase1\\Files\\";
 		boolean appRun = true;
 		int key = 0;
 
