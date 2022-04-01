@@ -4,9 +4,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class LockMeMain {
+public class LockedMe {
 
-	private static void displayFiles(String path) throws IOException {
+	private static void displayFiles(String path) {
 		// TODO Auto-generated method stub
 		File f = new File(path);
 		File filename[] = f.listFiles();
@@ -16,7 +16,7 @@ public class LockMeMain {
 
 	}
 
-	private static void searchFile(String fileName, String path) throws IOException {
+	private static void searchFile(String fileName, String path) {
 		// TODO Auto-generated method stub
 		File f = new File(path);
 		File filenames[] = f.listFiles();
@@ -39,7 +39,7 @@ public class LockMeMain {
 
 	}
 
-	private static void deleteFile(String fileName, String path) throws IOException {
+	private static void deleteFile(String fileName, String path) {
 		// TODO Auto-generated method stub
 		String finalfile = path + fileName;
 		File file = new File(finalfile);
@@ -80,7 +80,7 @@ public class LockMeMain {
 
 		while (appRun) {
 //			Main menu
-			System.out.println("Welcome to LockMe.com");
+			System.out.println("Welcome to LockedMe.com");
 			System.out.println("Enter: 1- Retrive files in Ascending order");
 			System.out.println("Enter: 2- Business level Operation MENU");
 			System.out.println("Enter: 3- EXIT from the app. ");
