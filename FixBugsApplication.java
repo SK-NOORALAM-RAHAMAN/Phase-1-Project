@@ -6,9 +6,8 @@ import java.util.Scanner;
 
 public class FixBugsApplication {
 	public static void main(String[] args) {
-		/* System.out.println("Hello World!"); */
 		System.out.println("\n-------------------------------------\n");
-		System.out.println("\t*****Welcome to Desk **** \n");
+		System.out.println("\t*****Welcome to the App **** \n");
 		System.out.println("\n----------------------------------------\n");
 		optionsSelection();
 	}
